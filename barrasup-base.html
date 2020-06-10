@@ -1,0 +1,28 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
+
+<dom-module id="barrasup-base">
+  <template>
+    <style>
+
+    </style>
+<h1>[[prop1]] </h1>
+
+</template>
+
+  <script>
+    class BarrasupBase extends Polymer.Element {
+      static get is() { return 'barrasup-base'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'EN CONSTRUCCIÓN'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(BarrasupBase.is, BarrasupBase);
+  </script>
+</dom-module>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="prueba de conocimiento front"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <script src= "../node_modules/vue/dist/vue.js"> </script>
+    <title>F I B O N A C C I</title>
+    <!-- links para bootstrap -->
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/sticky-footer-navbar.css" rel="stylesheet">
+    <!-- estilos para barra de cabecera de bootstrap -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column h-100">   <!-- la clase es de estilos para la cabecera bootstrap -->
+
+    <header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">S H O P P E R ...</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.gonet.us/retail-digital#shopper"> Nosotros </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.gonet.us/form/contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+</br>
+</br>
+</br>
+</br>
+
+<!-- cuerpo de la pagina -->
+      <div class="row">
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="180" height="180"  src="/img/fibonacci.jpg">
+              <h2>Serie de Fibonacci</h2>   <!-- Titulo de la imagen -->
+              </br>
+                <div>
+                  <p>Ingresa un Numero entero: <input id="valnum" class="form-control mr-sm-2" type="text" placeholder="" aria-label="Search"></p>
+                  <div id="genfun">
+                    <button class="btn btn-secondary" role="button" v-on:click="saludar"> Genera Inmediato</button>
+                    </br>
+                    </br>
+                    <p class="text-muted">Número inmediato de la serie de Fibonacci {{ serief }} <strong> Es: {{ result }} </strong></p>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </br>
+    </br>
+    </br>
+    </br>
+
+
+  <script src="../index.js"></script>
+  <!-- pie de pagina sencillo con bootstrap-->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+          <span class="text-muted">S H O P P E R ... by Go Net oficinas en Mexico City  5570-5100</span>
+        </div>
+    </footer>
+
+<!-- sirve para el boton cuando es la pantalla de un celular -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../node_modules/jquery/dist/jquery.slim.min.js"><\/script>')</script><script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script></body>
+
+  </body>
+</html>
