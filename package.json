@@ -728,7 +728,7 @@
       "resolved": "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz",
       "version": "4.0.8"
     },
-    "vue": "^2.6.11",
+    "vue": "^3.0.0",
     "wct-mocha": {
       "integrity": "sha512-7k4krdiFcODjdo9uAxHDNpFm8AwFZUhKdUXMIdoJZzF6NHq3aONrvv/uPYvTDGYZxap4mEO53kSl/RDKIv8b8g==",
       "resolved": "https://registry.npmjs.org/wct-mocha/-/wct-mocha-1.0.1.tgz",
